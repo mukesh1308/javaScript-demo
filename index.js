@@ -69,3 +69,27 @@ let String_len=String_cont.length;
 
 let say=`my name is ${String_cont}`
 //! console.log(say);
+
+
+
+// array
+
+var array=["john",32];
+console.log(array);
+console.log("first element :"+array[0]);
+
+array.push("push1");
+array.push("push2");
+array.push("push3");
+console.log(array);
+
+
+let pop_data=array.pop();
+console.log(array);
+console.log(pop_data);
+
+array.shift();
+console.log(array);
+
+array.unshift("unshift");
+console.log(array);
