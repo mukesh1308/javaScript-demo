@@ -75,21 +75,40 @@ let say=`my name is ${String_cont}`
 // array
 
 var array=["john",32];
-console.log(array);
-console.log("first element :"+array[0]);
+//! console.log(array);
+//! console.log("first element :"+array[0]);
 
 array.push("push1");
 array.push("push2");
 array.push("push3");
-console.log(array);
+//! console.log(array);
 
 
 let pop_data=array.pop();
-console.log(array);
-console.log(pop_data);
+//! console.log(array);
+//! console.log(pop_data);
 
 array.shift();
-console.log(array);
+//! console.log(array);
 
 array.unshift("unshift");
-console.log(array);
+//! console.log(array);
+
+function myFunction(){
+    //! console.log("helo from myFunction");
+}
+myFunction();
+myFunction();
+myFunction();
+
+function Sum(a,b){
+    //! console.log(`sum of ${a} and ${b} is ${a+b}`);
+}
+Sum(10,30);
+Sum(1,52);
+Sum(19,34); 
+
+function sum(a,b){
+    return a+b;
+}
+//! console.log(sum(10,21));
