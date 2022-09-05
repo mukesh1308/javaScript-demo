@@ -55,4 +55,17 @@ num4/=10 //num4=num4/10
 \b
 \f
 */
- console.log("my name is mukesh kumar\n i like c++ \t i study ECE#\b ");
+//! console.log("my name is mukesh kumar\n i like c++ \t i study ECE#\b ");
+
+let firstName="mukesh";
+let lastName="kumar";
+let String_cont=firstName+" "+lastName;
+console.log(String_cont);
+let String_len=String_cont.length;
+//! console.log(String_len);
+
+//! console.log("first char is :"+String_cont[0]);
+//! console.log("last char is :"+String_cont[String_len-1]);
+
+let say=`my name is ${String_cont}`
+//! console.log(say);
